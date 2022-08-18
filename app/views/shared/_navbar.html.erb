@@ -1,6 +1,6 @@
 <nav class="navbar navbar-light bg-light" role="navigation">
     <div class="container-fluid">
-      <div class="navbar-header"><%= link_to "Restaurants", flats_path %></div>
-      <div class="navbar-header"><%= link_to "Add a new restaurant", new_flat_path %></div>
+      <%= link_to "Flats", flats_path, :class => "navbar-brand" %>
+      <div class="ms-auto flex"><%= link_to "Add a flat", new_flat_path, :class => "btn btn-outline-primary my-2 my-sm-0 ms-2" %></div>
     </div>
 </nav>
